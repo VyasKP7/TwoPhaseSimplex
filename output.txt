@@ -1,0 +1,44 @@
+Adding Slack variables, since type 2
+
+The standard form is:
+A = 
+	1	-1	1	0	
+	1	1	0	1	
+	
+b = 
+	2	
+	6	
+	
+C = 
+	1	
+	-1	
+	0	
+	0	
+	
+Phase I not required.
+
+Our original BFS is X1 = 0, X2 = 0, 
+
+Phase II started.
+
+Phase II Iteration 1
+
+Current X:
+X1 = 0, X2 = 6, Current Z = 1
+
+
+Optimal Solution Reached.
+Optimal X:
+X1 = 0, X2 = 6, Maximum Z = 1
+
+
+For Constraint 1:
+LHS = -6.000000 <= 2.000000 = b(1), Correct.
+
+For Constraint 2:
+LHS = 6.000000 <= 6.000000 = b(2), Correct.
+
+The solution is feasible (all Xi >=0)
+
+
+Time Taken: 0.026216 seconds
